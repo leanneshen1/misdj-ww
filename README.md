@@ -67,5 +67,20 @@ xlwt==1.3.0
   d. 确认版本正确后，重新确认服务器端http://127.0.0.1:8000/ww2 的运行情况
 
  ![Step6](img/04_运行ww2.png)
-
+ 
+3. 在本地编译器ww目录下添加img文件夹，用来存放本地需要上传的图片
+ 
+ ![Step7](img/06_add img.png)
+ 
+4. 新建  app, ./manage.py startapp case001
+   在case001/models 下添加
+```
+from django.db import models
+class Data1(models.Model):
+    date1 = models.DateField()
+    place = models.CharField(max_length=100)
+    worker = models.CharField(max_length=100)
+    thing = models.CharField(max_length=100)
+```
+ ![Step8](img/07_.png)
 
