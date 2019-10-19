@@ -53,5 +53,19 @@ xlwt==1.3.0
   a. 运行失败，显示错误信息如下:
   
  ![Step3](img/03_运行ww2.png)
+ 
+  b. 经过确认，发现目前使用的Django版本是1.8.19
+  
+  ![Step4](img/04_pip freeze.png)
+  
+  c. 重新安装 pip install django
+             pip install django-import-export
+     后运行 pip freeze 结果如下
+     
+ ![Step5](img/04_pip freeze.png)
+ 
+  d. 确认版本正确后，重新确认服务器端http://127.0.0.1:8000/ww2 的运行情况
+
+ ![Step6](img/04_运行ww2.png)
 
 
