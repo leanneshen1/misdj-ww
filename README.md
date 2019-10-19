@@ -82,6 +82,42 @@ class Data1(models.Model):
     worker = models.CharField(max_length=100)
     thing = models.CharField(max_length=100)
 ```
+  ![Step8](img/07_createcase01.png)
+  
+    在case001/admin 下添加
+```
+from django.contrib import admin
+
+from django.contrib import admin
+from import_export import resources
+from import_export.admin import ImportExportModelAdmin
+
+from .models import Data1
+
+class Data1Resource(resources.ModelResource):
+    class Meta:
+        model = Data1
+
+class Data1Admin(ImportExportModelAdmin):
+    resource_class = Data1Resource
+    list_display = ('date1','place', 'worker','thing')
+    list_filter = ['place','worker']
+    search_fields = ['date1','thing']
+   
+admin.site.register(Data1, Data1Admin)
+```
+  ![Step9](img/08_createcase01.png)
+  
  
- ![Step8](img/07_createcase01.png)
+5. 在终端运行
+```
+./manage.py makemigrations
+./manage.py migrate
+./manage.py collectstatic
+./manage.py runserver
+
+ls -l
+cat go
+```
+![Step10](img/09_catgo.png)
 
