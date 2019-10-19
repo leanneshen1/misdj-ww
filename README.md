@@ -56,7 +56,7 @@ xlwt==1.3.0
  
   b. 经过确认，发现目前使用的Django版本是1.8.19
   
- ![Step4](img/04_pip freeze.png)
+ ![Step4](img/04_pip freez.png)
   
   c. 重新安装 pip install django
              pip install django-import-export
