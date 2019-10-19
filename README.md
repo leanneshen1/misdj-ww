@@ -168,10 +168,14 @@ cat go
 
 6. 还可以在搜索框中录入月份，查询给定月份的每天具体人天数量
    
-   以此数据为例，17园在2019-07总计有385笔
+   以此数据为例，17园在2019-07总计有395人天
 
-![Step17](img/18_dataimport.png)
-![Step17](img/19_dataimport.png)
+![Step18](img/18_dataimport.png)
+![Step19](img/19_dataimport.png)
+
+ 从下表中可以找到对应的395人天的数据，也可作为交互确认
+![Step20](img/20_dataimport.png)
+
  
 
 
