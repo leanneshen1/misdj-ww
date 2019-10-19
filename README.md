@@ -136,7 +136,7 @@ cat go
 
  b. 检查misdj/settings
 ```
-TIME_ZONE = 'Asia/Shanghai'
+将TIME_ZONE修改成 TIME_ZONE = 'Asia/Shanghai'
 ```
 ![Step12](img/12_timezone.png)
 
