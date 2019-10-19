@@ -1,11 +1,19 @@
 (venv) leanneshendeMacBook-Air:ww leanneshen$ pip freeze
+
 appnope==0.1.0
+
 astroid==2.3.1
+
 backcall==0.1.0
+
 backports.csv==1.0.7
+
 decorator==4.4.0
+
 defusedxml==0.6.0
+
 diff-match-patch==20181111
+
 Django==1.8.19
 django-import-export==1.2.0
 et-xmlfile==1.0.1
