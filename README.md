@@ -140,5 +140,32 @@ cat go
 ```
 ![Step12](img/12_timezone.png)
 
+ c. 修改完成后确认确认终端时间，已变成正确时区
+ 
+![Step13](img/13_timezone.png)
+
+## Excel数据导入
+
+1. 登录http://127.0.0.1:8000/admin
+
+![Step14](img/14_dataimport.png)
+
+2. 将需要上传Excel格式数据放到本地 misdj005-master目录下
+
+![Step15](img/15_dataimport.png)
+
+3. 将需要上传Excel格式数据放到本地 misdj005-master目录下
+
+![Step15](img/15_dataimport.png)
+
+4. 点击【导入】按钮选择需要导入的Excel，成功导入后，数据总笔数为：4983笔
+
+![Step16](img/16_dataimport.png)
+
+5. 点击右边过滤器【112园】即可查询出所有112园的具体人天数据
+
+![Step17](img/17_dataimport.png)
+ 
+
 
 
