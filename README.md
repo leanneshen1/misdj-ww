@@ -162,9 +162,16 @@ cat go
 
 ![Step16](img/16_dataimport.png)
 
-5. 点击右边过滤器【112园】即可查询出所有112园的具体人天数据
+5. 点击右边过滤器【112园】即可查询出所有112园的具体人天数量
 
 ![Step17](img/17_dataimport.png)
+
+6. 还可以在搜索框中录入月份，查询给定月份的每天具体人天数量
+   
+   以此数据为例，17园在2019-07总计有385笔
+
+![Step17](img/18_dataimport.png)
+![Step17](img/19_dataimport.png)
  
 
 
