@@ -33,3 +33,16 @@ xlwt==1.3.0
 (venv) leanneshendeMacBook-Air:misdj005-master leanneshen$ ./manage.py startapp case001
 
 ```
+
+20191119 工作环境设定及遇到的问题
+
+1. 本地代码上传
+  
+  a. 在本地代码与GitHub两边内容一模一样时，尝试终端五步上传，系统则提示没有可更新内容
+
+![Step1](img/01_上传.png)
+
+
+   b. 尝试在本地READme中添加文字，重新尝试上传
+
+![Step2](img/02_上传.png)
