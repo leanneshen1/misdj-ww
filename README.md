@@ -41,3 +41,10 @@ wrapt==1.11.2
 xlrd==1.2.0
 xlwt==1.3.0
 ```
+
+## 我的工作目錄是  pwd
+```
+(venv) leanneshendeMacBook-Air:ww leanneshen$ pwd
+/Users/leanneshen/misdj/ww
+
+```
