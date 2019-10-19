@@ -82,5 +82,6 @@ class Data1(models.Model):
     worker = models.CharField(max_length=100)
     thing = models.CharField(max_length=100)
 ```
- ![Step8](img/07_.png)
+ 
+ ![Step8](img/07_create case01.png)
 
