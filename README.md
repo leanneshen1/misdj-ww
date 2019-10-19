@@ -27,3 +27,9 @@ xlwt==1.3.0
 /Users/leanneshen/misdj/ww
 
 ```
+
+## 新建  app, ./manage.py startapp case001
+```
+(venv) leanneshendeMacBook-Air:misdj005-master leanneshen$ ./manage.py startapp case001
+
+```
