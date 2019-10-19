@@ -121,3 +121,24 @@ cat go
 ```
 ![Step10](img/09_catgo.png)
 
+6. 在note/urls目录下增加附录
+```
+ # NOTE: 根目录不必 /
+ # path('/', views.index, name='index'),
+```
+![Step11](img/10_增加附录.png)
+
+7. Timezone
+
+ a. 回到终端检查，发现Timezone时区有错误
+
+![Step12](img/11_timezone.png)
+
+ b. 检查misdj/settings
+```
+TIME_ZONE = 'Asia/Shanghai'
+```
+![Step12](img/12_timezone.png)
+
+
+
