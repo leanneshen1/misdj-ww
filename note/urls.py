@@ -9,5 +9,5 @@ urlpatterns = [
     
     # NOTE: 根目录不必 /
     # path('/', views.index, name='index'),
-    path('/', views.index, name='index'),
+    path('', views.index, name='index'),
 ]

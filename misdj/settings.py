@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'case001',
     'note', # 加入 note App
     'import_export', # 加入 import_export App
+    'django.contrib.humanize', # 給 template 使用 {% load humanize %}
 ]
 
 MIDDLEWARE = [
@@ -107,7 +108,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans'
+# LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'en'
+
 
 TIME_ZONE = 'Asia/Shanghai'
 
